@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">Üritused Tallinnas</string>
+    <string name="action_settings">Settings</string>
+    <!-- basemap menu items -->
+    <string name="StreetMapMenu">Streets</string>
+    <string name="TopoMenu">Topographic</string>
+    <string name="GrayMenu">Gray</string>
+    <string name="refresh">Refresh</string>
+    <string name="goback">Back</string>
+    <string name="exit">Exit</string>
+
+    <string name="moreInfo">more info..</string>
+    <string name="WorldMapServer">http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer</string>
+
+    <string name="avalikUritus">https://akis.tallinn.ee/kogunemised/xml/23d381ce</string>
+    <string name="spordiUritus">https://akis.tallinn.ee/kogunemised/xml/32421f85</string>
+    <string name="ilutulestik">https://akis.tallinn.ee/kogunemised/xml/28cef206</string>
+
+    <string name="progressdTitle">Please wait while loading map</string>
+    <string name="progressdMessage">Loading map...</string>
+    <string name="alertdTitle">No Internet Connection</string>
+    <string name="alertdMessage">You do not have internet connection. Try again later.</string>
+
+
+
+    <string name="yrituse_vorm">Laad</string>
+    <string name="alkoinfo">Alkoholi müük</string>
+    <string name="eritingimused">Eritingimused</string>
+    <string name="korraldaja">Korraldaja</string>
+    <string name="korraldaja_telefon">Korraldaja telefon</string>
+    <string name="valjastamise_aeg">Avalikustamise aeg</string>
+    <string name="loa_number">Loa number</string>
+    <string name="kogunemise_liik">Kogunemise liik </string>
+    <string name="nimetus">Nimetus</string>
+    <string name="toimumiskoht">Toimumise koht</string>
+    <string name="aadressi_tapsustus">Aadressi täpsustus</string>
+    <string name="toimumise_aeg">Toimumise aeg</string>
+
+
+    <!--XML tags in specific order -->
+    <string name="get1tag">A1_loa_number</string>
+    <string name="get2tag">A2_kogunemise_liik</string>
+    <string name="get3tag">A3_yrituse_vorm</string>
+    <string name="get4tag">A4_nimetus</string>
+    <string name="get5tag">A5_toimumiskoht</string>
+    <string name="get6tag">A6_aadressi_tapsustus</string>
+    <string name="get7tag">A7_toimumise_aeg</string>
+    <string name="get8tag">A8_alkoinfo</string>
+    <string name="get9tag">A9_korraldaja</string>
+    <string name="get10tag">B1_korraldaja_telefon</string>
+    <string name="get11tag">B2_valjastamise_aeg</string>
+    <string name="get12tag">B3_eritingimused</string>
+
+
+</resources>

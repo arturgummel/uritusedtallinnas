@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gummel.uritusedtallinnas.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <!--url="http://www.arcgis.com/home/webmap/viewer.html?webmap=dbc954605d8a4055b306b3ccb2012ac0"
+
+        mapoptions.MapType="Topo"
+        mapoptions.ZoomLevel="13"
+        mapoptions.center="59.436962, 24.753574"-->
+    <com.esri.android.map.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        url="http://www.arcgis.com/home/webmap/viewer.html?webmap=dbc954605d8a4055b306b3ccb2012ac0">
+    </com.esri.android.map.MapView>
+</RelativeLayout>

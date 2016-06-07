@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gummel.uritusedtallinnas.FullInfoActivity">
+    <item
+        android:id="@+id/action_goback"
+        android:icon="@drawable/ic_ab_back_holo_dark_am"
+        android:title="@string/goback"
+        app:showAsAction="ifRoom"/>
+</menu>

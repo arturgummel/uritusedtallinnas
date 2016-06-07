@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gummel.uritusedtallinnas.MainActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/World_Street_Map"
+            android:showAsAction="never"
+            android:title="@string/StreetMapMenu" />
+        <item
+            android:id="@+id/World_Topo"
+            android:showAsAction="never"
+            android:title="@string/TopoMenu" />
+        <item
+            android:id="@+id/Gray"
+            android:showAsAction="never"
+            android:title="@string/GrayMenu" />
+    </group>
+</menu>
